@@ -15,15 +15,12 @@ const Greeting = () => {
     setGreeting(greetings['greetings'])
   }
 
-
   return (
-		<>
+		<div>
 			<h1>Greetings App</h1>
-			<ul>
-				<li>{greeting.greeting}</li>
-			</ul>
-			<Button onClick={handleGreeting} />
-		</>
+				<p>{greeting.greeting}</p>
+			<Button onClick={handleGreeting}>Greet</Button>
+		</div>
 	)
 }
 

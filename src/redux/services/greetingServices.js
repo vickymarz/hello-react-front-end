@@ -1,4 +1,4 @@
-const GREETINGS_API = 'localhost:3000/v1/greetings'
+const GREETINGS_API = 'http://localhost:3000/v1/greetings'
 
 const getGreetings = async () => {
 	try {

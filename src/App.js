@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Greeting from './pages/Greeting';
 
 function App() {
   return (
