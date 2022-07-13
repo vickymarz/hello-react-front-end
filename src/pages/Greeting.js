@@ -8,18 +8,18 @@ const Greeting = () => {
   const greetings = useSelector(state => state.greetings)
   const dispatch = useDispatch()
   
-  const [greeting, setGreeting] = useState([])
+  // const [greeting, setGreeting] = useState('')
 
-  const handleGreeting = () => {
-    dispatch(getGreetingList())
-    setGreeting(greetings['greetings'])
-  }
+  // const handleGreeting = () => {
+  //   setGreeting(greetings['greetings'])
+  // }
 
+  console.log(greetings);
   return (
-		<div>
+		<div className='greeting'>
 			<h1>Greetings App</h1>
-				<p>{greeting.greeting}</p>
-			<Button onClick={handleGreeting}>Greet</Button>
+			<p>{greetings}</p>
+			<Button className='btn' onClick={() => dispatch(getGreetingList())}>Greet</Button>
 		</div>
 	)
 }

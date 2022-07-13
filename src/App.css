@@ -1,0 +1,40 @@
+/* global styling  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: #6a40fb;
+  box-shadow: 5px 5px 5px #6840fb99;
+}
