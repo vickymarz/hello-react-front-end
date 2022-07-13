@@ -2,8 +2,13 @@
 
 This is a react frontend application built in preparation for building full stack web application using rails as the frontend.
 
+## Backend Server
 
-Click [here](https://space-travellers-booking-app.herokuapp.com/) to get a live preview of the project.
+[Api server](https://greeting-app-backend.herokuapp.com/)
+
+## Backend Source Code
+
+[Source Code](https://github.com/vickymarz/hello-rails-back-end)
 
 ## Built With
 - React
